@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
@@ -24,7 +24,7 @@ body {
 h1 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #444;
+  color: #e67e22; /* Naranja */
 }
 
 /* Form Styles */
@@ -36,14 +36,14 @@ form {
 
 label {
   font-size: 16px;
-  color: #555;
+  color: #27ae60; /* Verde */
   text-align: left;
   display: block;
 }
 
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #27ae60; /* Verde */
   border-radius: 5px;
   font-size: 16px;
   width: 100%;
@@ -52,7 +52,7 @@ input[type="text"] {
 
 button {
   padding: 10px;
-  background-color: #007bff;
+  background-color: #e67e22; /* Naranja */
   color: white;
   border: none;
   border-radius: 5px;
@@ -62,5 +62,6 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #d35400; /* Naranja oscuro */
 }
+
